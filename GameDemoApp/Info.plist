@@ -28,7 +28,11 @@
 	<string>Main</string>
 	<key>UIMainStoryboardFile~ipad</key>
 	<string>Main_iPad</string>
-	<key>UIRequiredDeviceCapabilities</key>
+	<key>NSAppTransportSecurity</key> 
+		<dict>  
+			<key>NSAllowsArbitraryLoads</key><true/>
+		</dict>
+	<key>UIRequiredDeviceCapabilities</key>		
 	<array>
 		<string>armv7</string>
 	</array>
